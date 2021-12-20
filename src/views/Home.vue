@@ -1,18 +1,42 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <div class="hero-image">
+      <h1 class="hero-text">Let's Travel.</h1>
+    </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
 export default {
   name: "Home",
-  components: {
-    HelloWorld,
-  },
 };
 </script>
+
+<style>
+.home {
+  width: 100%;
+  height: calc(100% - 58px);
+}
+
+.hero-image {
+  height: 100%;
+  position: relative;
+  background-image: url("../../src/assets/travel.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-text {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  margin: 0;
+  font-size: 64px;
+  color: #fff;
+  font-family: "Caveat", cursive;
+  text-align: center;
+  text-shadow: 3px 2px 3px rgba(255, 255, 255, 0.2);
+  transform: translate(-50%, -100%);
+}
+</style>
