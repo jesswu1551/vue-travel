@@ -9,19 +9,22 @@
 
 <style>
 .about {
-  width: 100%;
-  height: calc(100% - 56px);
+  width: 80%;
+  height: calc(100% - 58px);
+  margin: auto;
 }
 
 blockquote {
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-size: 3em;
+  margin: 0;
+  padding: 120px 20px 20px;
+  font-size: 36px;
+  line-height: 1.5;
   font-style: italic;
-  line-height: 1.5em;
-  padding: 1em 2em;
+  font-family: Georgia, Times, "Times New Roman", serif;
 }
 
 blockquote .name {
-  font-size: 0.75em;
+  font-size: 28px;
+  color: #465767;
 }
 </style>
