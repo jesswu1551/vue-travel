@@ -24,9 +24,9 @@ const routes = [
     name: "Travel",
     component: Travel,
     children: [
-      { path: "spain", name: "Spain", component: () => import("../components/Spain.vue") },
-      { path: "finland", name: "Finland", component: () => import("../components/Finland.vue") },
-      { path: "czech", name: "Czech", component: () => import("../components/Czech.vue") },
+      { path: "greece", name: "Greece", component: () => import("../components/Greece.vue") },
+      { path: "united_kingdom", name: "United Kingdom", component: () => import("../components/UnitedKingdom.vue") },
+      { path: "greenland", name: "Greenland", component: () => import("../components/Greenland.vue") },
     ]
   },
   {
