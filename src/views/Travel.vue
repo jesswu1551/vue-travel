@@ -1,10 +1,10 @@
 <template>
   <div class="travel">
-    <p class="title">Three countries I love the most</p>
+    <p class="title">Best Holiday Destinations</p>
     <div class="router-group">
-      <router-link to="/travel/spain">Spain</router-link>
-      <router-link to="/travel/finland">Finland</router-link>
-      <router-link to="/travel/czech">Czech</router-link>
+      <router-link to="/travel/greece">Greece</router-link>
+      <router-link to="/travel/united_kingdom">United Kingdom</router-link>
+      <router-link to="/travel/greenland">Greenland</router-link>
     </div>
     <router-view />
   </div>
