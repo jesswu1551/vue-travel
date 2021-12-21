@@ -5,9 +5,20 @@
       <router-link to="/about">About</router-link>
       <router-link to="/travel">Travel</router-link>
     </div>
+    <GoBack />
     <router-view />
   </div>
 </template>
+
+<script>
+import GoBack from "@/components/GoBack.vue";
+
+export default {
+  components: {
+    GoBack,
+  },
+};
+</script>
 
 <style>
 body,
