@@ -29,16 +29,25 @@ const routes = [
     name: "notfound",
     component: () => import("../views/NotFound.vue"),
   },
-  {
-    path: "*",
-    redirect: "/404",
-  },
+  // {
+  //   path: "*",
+  //   redirect: "/404",
+  // },
 ];
 
 const router = new VueRouter({
   mode: "history",
   base: process.env.BASE_URL,
   routes,
+});
+
+router.beforeEach((to, from, next) => {
+  console.log(to, from, next);
+  if (!to.matched.length) {
+    next("/404");
+  } else {
+    next();
+  }
 });
 
 export default router;
