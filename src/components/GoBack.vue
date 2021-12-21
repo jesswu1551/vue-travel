@@ -19,10 +19,13 @@ export default {
 .goback-btn {
   padding: 4px 8px;
   position: fixed;
-  top: 80px;
-  left: 24px;
+  /* top: 80px; */
+  /* left: 24px; */
+  top: 16px;
+  right: 24px;
+  color: #465767;
+  border: 1px solid #465767;
   background-color: #fff;
-  border: 1px solid #2c3e50;
   z-index: 1;
 }
 
