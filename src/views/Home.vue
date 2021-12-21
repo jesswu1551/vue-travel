@@ -36,7 +36,7 @@ export default {
   color: #fff;
   font-family: "Caveat", cursive;
   text-align: center;
-  text-shadow: 3px 2px 3px rgba(255, 255, 255, 0.2);
+  text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.1);
   transform: translate(-50%, -100%);
 }
 </style>

@@ -23,6 +23,11 @@ const routes = [
     path: "/travel",
     name: "Travel",
     component: Travel,
+    children: [
+      { path: "spain", name: "Spain", component: () => import("../components/Spain.vue") },
+      { path: "finland", name: "Finland", component: () => import("../components/Finland.vue") },
+      { path: "czech", name: "Czech", component: () => import("../components/Czech.vue") },
+    ]
   },
   {
     path: "/404", // "*",
