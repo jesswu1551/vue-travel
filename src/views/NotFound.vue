@@ -16,7 +16,7 @@ export default {
       return this.$router.push({ path: "/" }); // push({ name: "Home" })
     },
   },
-}
+};
 </script>
 
 <style>

@@ -12,7 +12,7 @@ export default {
       return this.$router.go(-1);
     },
   },
-}
+};
 </script>
 
 <style>
