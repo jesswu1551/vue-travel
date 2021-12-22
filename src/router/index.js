@@ -60,7 +60,6 @@ const router = new VueRouter({
 });
 
 router.beforeEach((to, from, next) => {
-  console.log(to, from, next);
   if (!to.matched.length) {
     next("/404");
   } else {
